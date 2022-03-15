@@ -1,0 +1,8 @@
+## Create the values to be used in config_map_definition.yaml
+apiVersion: v1
+kind:  ConfigMap
+metadata:
+  name: app-config
+data:
+  APP_COLOR: blue
+  APP_MODE: prod
